@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Zmones{% endblock %}
+
+{% block content %}
+<div class="bg-warning">
+<h2 class="p-3 text-center">Zmones: </h2>
+    </div>
+{% for zmogus in vardai %}
+<hr>
+<p class="p-3 text-center">{{ zmogus }}</p>
+
+{% endfor %}
+
+{% endblock %}

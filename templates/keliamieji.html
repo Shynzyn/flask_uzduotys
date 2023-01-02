@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %} Keliamieji metai {% endblock %}
+
+{% block content %}
+<h4 class="p-4">Keliamieji metai: </h4>
+<ul>
+{% for metai in visi_metai %}
+<li><p class="p-2">{{metai}}</p></li>
+{% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}
+Prisijungimas
+{% endblock %}
+
+{% block content %}
+<div class="p-5">
+ <form method="post">
+  <div class="mb-3 mt-3">
+    <label for="fname" class="form-label">Vardas:</label><br>
+    <input type="text"  id="fname" placeholder="Iveskite varda" name="fname">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Ivesti</button>
+</form>
+</div>
+{% endblock %}

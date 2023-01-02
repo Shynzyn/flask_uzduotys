@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+Ar Keliamieji
+{% endblock %}
+
+{% block content %}
+<div class="p-5">
+ <form method="post">
+  <div class="mb-3 mt-3">
+    <label class="form-label">Metai :</label><br>
+    <input type="text" placeholder="2020" name="metai">
+  </div>
+  <button type="submit" class="btn btn-primary">Ivesti</button>
+</form>
+</div>
+{% endblock %}
